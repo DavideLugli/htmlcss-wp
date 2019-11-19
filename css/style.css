@@ -50,6 +50,40 @@ header {
   font-size: 20px;
 }
 
+.header-bottom {
+  height: 50px;
+  line-height: 50px;
+  background-color: #666666;
+}
+
+.header-bottom nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+.header-bottom nav ul li {
+  display: inline-block;
+}
+
+.header-bottom nav ul li a {
+  display: inline-block;
+  padding: 0 5px;
+  color: white;
+  border-right: 1px solid #2a2623;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header-bottom nav ul li:last-child a {
+  border: 0;
+}
+
+.header-bottom nav ul li a:hover {
+  background-color: lightgrey;
+}
+
 main {
   margin-bottom: 24px;
 }
