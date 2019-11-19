@@ -18,6 +18,11 @@ header {
   position: relative;
 }
 
+p {
+  line-height: 24px;
+  font-size: 15px;
+}
+
 .page {
   width: 1000px;
   margin: 20px auto;
@@ -140,9 +145,9 @@ main::after {
 }
 
 .col-left-header i {
-  color: orange;
   margin-right: 5px;
   font-size: 20px;
+  color: orange;
 }
 
 .col-left-header h3 {
@@ -152,9 +157,9 @@ main::after {
 .col-center {
   width: 50%;
   margin: 0 5%;
-  background-color: #fff;
-  border-radius: 5px;
   padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
 }
 
 .col-center .title {
@@ -164,30 +169,14 @@ main::after {
   text-shadow: 2px 2px 3px #363636;
 }
 
-p {
-  line-height: 24px;
-  font-size: 15px;
-}
-
-footer {
-  background-color: yellow;
-  height: 250px;
-}
-
-.col-center {
-  width: 50%;
-  margin: 0 5%;
-  background-color: #fff;
-}
-
 .col-right {
   width: 20%;
 }
 
 .col-right .widget {
   margin-bottom: 20px;
-  border-radius: 5px;
   padding: 5px;
+  border-radius: 5px;
   background-color: white;
 }
 
@@ -195,4 +184,40 @@ footer {
   margin-bottom: 20px;
   font-weight: 400;
   text-shadow: 2px 2px 4px #363636;
+}
+
+footer {
+  padding: 5px;
+  border-radius: 5px;
+  color: lightgrey;
+  background-color: white;
+}
+
+footer .footer-top {
+  padding: 4px;
+  text-align: center;
+  font-style: italic;
+  border-bottom: 1.2px solid grey;
+}
+
+footer .footer-bottom .footer-col {
+  float: left;
+  width: calc(100%/3);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+footer .footer-bottom .footer-col a {
+  color: lightgrey;
+}
+
+footer .footer-bottom .footer-col a:hover {
+  color: grey;
+}
+
+footer .footer-bottom::after {
+  content: "";
+  display: table;
+  clear: both;
 }
